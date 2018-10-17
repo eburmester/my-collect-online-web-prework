@@ -11,5 +11,4 @@ end
   counter += 1
 end
   return array
-end
-end
+
