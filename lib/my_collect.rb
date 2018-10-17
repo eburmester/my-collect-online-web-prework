@@ -4,5 +4,6 @@ def my_collect(array)
   yield(array.upcase)
   counter += 1 
 end 
+end
   
 
