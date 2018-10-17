@@ -3,5 +3,6 @@ def my_collect(array)
   while counter > array.size 
   yield(array.upcase)
   counter += 1 
+end 
   
 
