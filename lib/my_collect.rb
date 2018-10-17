@@ -1,16 +1,16 @@
 def my_collect(array)
   counter = 0 
   while counter > array.size 
-  yield(array.upcase) = up_array
+  yield(array.upcase) 
   counter += 1 
 end 
-  return up_array
+  return array
 end
   counter = 0 
   while counter > array.size 
-  yield(array.split(" ").first) = first_array
+  yield(array.split(" ").first) 
   counter += 1
 end
-  return first_array
+  return array
 end
 
