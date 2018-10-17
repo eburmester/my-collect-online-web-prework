@@ -1,10 +1,10 @@
 def my_collect(array)
-  counter = 0 
-  while counter > array.size 
-  yield(array.upcase) 
-  counter += 1 
-end 
-  return array
+  results = []
+    0.upto(array.length - 1) do |index|
+      results << yield(array[index])
+    end
+    results
+  end
 end
 
 
