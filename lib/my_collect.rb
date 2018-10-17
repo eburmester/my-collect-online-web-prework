@@ -6,7 +6,6 @@ def my_collect(array)
 end 
   return array
 end
-  counter = 0 
   while counter > array.size 
   yield(array.split(" ").first) 
   counter += 1
