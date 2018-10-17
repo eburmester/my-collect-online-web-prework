@@ -1,5 +1,7 @@
 def my_collect(array)
   counter = 0 
   while counter > array.size 
-  yield 
+  yield(array.upcase)
+  counter += 1 
+  
 
